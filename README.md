@@ -1,5 +1,7 @@
 # scRNAseq_ductal_breast_carcinoma
 
+Breast cancer (BC) relies on an intricate environment comprising diverse cancer cell clones that shape the disease evolution. Single-cell RNA sequencing (scRNA-seq) is a valuable resource for the characterization of BC tumor biology, the assessment of its heterogeneity along with multifaceted networks existing between the malignant cells and other components of the tumor microenvironment (TME). Furthermore, scRNA-seq provides the opportunity to identify novel BC druggable targets, thus allowing the advancement of precision therapeutic approaches. The employment of machine learning techniques in cancer research has already generated huge amounts of omics data, therefore maximizing the handling of scRNA-seq data. Here, we provide a novel scRNA-seq BC dataset, which uncovers 6 distinct cell clusters encompassing cancer cells and TME cell populations. By exploiting the transparency and interpretability of tree-based machine learning models, we identify the expression changes of certain genes driving the dynamic evolutionary trajectories of the cell populations identified. Indeed, our dataset provides a novel transcriptomic useful to further deepen the complex BC ecosystem. 
+
 ![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271)
 
 
