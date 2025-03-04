@@ -22,24 +22,13 @@ Raw counts and processed scRNA-seq data (including filtering, normalization, PCA
 
 ## Usage Notes
 
-## Usage
 This repository contains several Python scripts and Jupyter notebooks for processing and analyzing single-cell RNA sequencing (scRNA-seq). Below is a brief description of each file:
 
-- **data_preprocessing_scRNAseqDBC.ipynb** – Prepares and cleans scRNA-seq data for further analysis.
+- **data_preprocessing_scRNAseqDBC.ipynb** – Prepares and cleans scRNA-seq data for further analysis (it includes (including filtering, normalization, PCA, clustering).
 - **cell_annotation_scRNAseqDBC.ipynb** – Assigns cell-type annotations based on gene expression profiles.
 - **Trajectory_inference_scRNAseqDBC.ipynb** – Performs trajectory inference on single-cell RNA sequencing data.
 - **DecisionTree.py** – Contains decision tree algorithms for identifying gene drivers in scRNA-seq data.
 - **Cell_Label_Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships.  
-
-Run the Python scripts as follows:
-
-```bash
-python script_name.py
-
-For Jupyter notebooks, open them using:
-
-```bash
-jupyter notebook notebook_name.ipynb
 
 ## Citation
 
@@ -63,6 +52,6 @@ BibTeX format:
   pages = {XX--XX},
   doi = {Your DOI}
 }
-
+```
 ## Contact
 For questions or collaboration, contact Vanessa Verrina at vanessa.verrina@unical.it.
