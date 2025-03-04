@@ -6,7 +6,27 @@ Breast cancer (BC) relies on an intricate environment comprising diverse cancer 
 ![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271)
 
 ## Data
+The sequencing data generated in this study have been deposited in the GEO repository with accession number GSE288223.
+
 Raw counts and processed scRNA-seq data (including filtering, normalization, PCA, clustering labels, cell annotations, and UMAP coordinates) are available as h5ad files. Both datasets are stored [here](https://drive.google.com/file/d/1JGtv232LbYCtL7wDkQYgUUPMus9MOueS/view?usp=sharing) as AnnData objects.
 
 ## Citation
-If you use these analysis, please cite this work as follow:
+
+If you use any material from this repository, please cite the following work:
+
+Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers  
+Authors: Vanessa Verrina et al.
+DOI/Link: [Your DOI or URL]  
+
+BibTeX format:
+```bibtex
+@article{YourCitationKey,
+  author = {Your Name},
+  title = {Your Paper Title},
+  journal = {Journal Name},
+  year = {Year},
+  volume = {X},
+  number = {X},
+  pages = {XX--XX},
+  doi = {Your DOI}
+}
