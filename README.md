@@ -31,7 +31,7 @@ This repository contains several Python scripts and Jupyter notebooks for proces
 
 If you use any material from this repository, please cite the following work:
 
-Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers  
+*Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers*  
 
 Authors: Vanessa Verrina et al.
 
