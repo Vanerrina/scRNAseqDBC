@@ -39,15 +39,12 @@ DOI/Link: [Your DOI or URL]
 
 BibTeX format:
 ```bibtex
-@article{YourCitationKey,
-  author = {Your Name},
-  title = {Your Paper Title},
-  journal = {Journal Name},
-  year = {Year},
-  volume = {X},
-  number = {X},
-  pages = {XX--XX},
-  doi = {Your DOI}
+@article{Verrina2025,
+  author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo4  and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
+  title     = {Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers},
+  journal   = {xxx},
+  year      = {2025},
+  note      = {Submitted}
 }
 ```
 ## Contact
