@@ -1,5 +1,5 @@
 # Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers
-This repository contains code and data used for applying tree-based models to single-cell RNA sequencing (scRNA-seq) data to identify breast cancer gene drivers. The goal is to leverage machine learning techniques to uncover important genetic markers associated with breast cancer progression.
+This repository contains Python scripts and data used for applying tree-based models to single-cell RNA sequencing (scRNA-seq) data to identify breast cancer gene drivers. The goal is to leverage machine learning techniques to uncover important genetic markers associated with breast cancer progression.
 
 ## Table of Contents
 - [Overview](#overview)
