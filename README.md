@@ -19,7 +19,7 @@ An overview of the scRNA-seq analysis of BC tissue is provided in Figure 1. Brie
 ## Dataset
 The sequencing data generated in this study have been deposited in the GEO repository with accession number GSE288223.
 
-Raw counts and processed scRNA-seq data (including filtering, normalization, PCA, clustering labels, cell annotations, and UMAP coordinates) are available as h5ad files. Both datasets are stored [here](https://drive.google.com/file/d/1JGtv232LbYCtL7wDkQYgUUPMus9MOueS/view?usp=sharing) as AnnData objects.
+Raw counts and processed scRNA-seq data (including filtering, normalization, PCA, clustering labels, cell annotations, UMAP coordinates, and pseudotime calculation) are available as h5ad files. Both datasets are stored [here](https://drive.google.com/file/d/1JGtv232LbYCtL7wDkQYgUUPMus9MOueS/view?usp=sharing) as AnnData objects.
 
 ## Usage Notes
 This repository contains several Python scripts and Jupyter notebooks for processing and analyzing single-cell RNA sequencing (scRNA-seq). Below is a brief description of each file:
@@ -44,7 +44,7 @@ Authors: Vanessa Verrina et al.
 BibTeX format:
 ```bibtex
 @article{Verrina2025,
-  author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo4  and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
+  author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
   title     = {Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers},
   journal   = {xxx},
   year      = {2025},
