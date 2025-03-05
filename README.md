@@ -13,7 +13,7 @@ Breast cancer (BC) relies on an intricate environment comprising diverse cancer 
 
 <!-- ![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271) -->
 
-An overview of the scRNA-seq analysis of BC tissue is provided in the Figure above. Briefly, the overall process includes the following steps: acquiring tissue sample from a BC patient, 10X Genomics scRNA-seq library construction and sequencing, scRNA-seq data processing (including cell annotation and trajectory inference), machine leaning classification tasks and model evaluation and explainability.
+An overview of the scRNA-seq analysis of BC tissue is provided in Figure 1. Briefly, the overall process includes the following steps: acquiring tissue sample from a BC patient, 10X Genomics scRNA-seq library construction and sequencing, scRNA-seq data processing (including cell annotation and trajectory inference), machine leaning classification tasks and model evaluation and explainability.
 
 ## Dataset
 The sequencing data generated in this study have been deposited in the GEO repository with accession number GSE288223.
