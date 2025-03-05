@@ -11,7 +11,9 @@ This repository contains code and data used for applying tree-based models to si
 ## Overview
 Breast cancer (BC) relies on an intricate environment comprising diverse cancer cell clones that shape the disease evolution. Single-cell RNA sequencing (scRNA-seq) is a valuable resource for the characterization of BC tumor biology, the assessment of its heterogeneity along with multifaceted networks existing between the malignant cells and other components of the tumor microenvironment (TME). Furthermore, scRNA-seq provides the opportunity to identify novel BC druggable targets, thus allowing the advancement of precision therapeutic approaches. The employment of machine learning techniques in cancer research can efficiently analyze large-scale omics data, making them well-suited for scRNA-seq applications. Here, we provide a novel scRNA-seq BC dataset, which uncovers 6 distinct cell clusters encompassing cancer cells and TME cell populations. By leveraging the transparency and interpretability of tree-based machine learning models, we identify gene expression changes that drive the dynamic evolutionary trajectories of the cell populations. Our dataset provides a novel transcriptomic resource that can further enhance the understanding of the complex BC ecosystem.
 
-![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271)
+<!-- ![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271) -->
+
+An overview of the scRNA-seq analysis of BC tissue is provided in the Figure above. Briefly, the overall process includes the following steps: acquiring tissue sample from a BC patient, 10X Genomics scRNA-seq library construction and sequencing, scRNA-seq data processing (including cell annotation and trajectory inference), machine leaning classification tasks and model evaluation and explainability.
 
 ## Dataset
 The sequencing data generated in this study have been deposited in the GEO repository with accession number GSE288223.
