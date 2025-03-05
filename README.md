@@ -37,7 +37,7 @@ If you use any material from this repository, please cite the following work:
 
 Authors: Vanessa Verrina et al.
 
-DOI/Link: [Your DOI or URL]  
+<!-- DOI/Link: [Your DOI or URL]  -->
 
 BibTeX format:
 ```bibtex
