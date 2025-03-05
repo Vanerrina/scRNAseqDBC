@@ -29,7 +29,7 @@ This repository contains several Python scripts and Jupyter notebooks for proces
 - **Trajectory_inference_scRNAseqDBC.ipynb** – Performs trajectory inference on single-cell RNA sequencing data. *(Uses: `scanpy`)*  
 - **DecisionTree.py** – Contains decision tree algorithms for identifying gene drivers in scRNA-seq data. *(Uses: `scikit-learn`)*  
 - **Cell_Label_Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships. *(Uses: `scikit-learn`)*
-- 
+
 The python dependencies are specified in the requirements.txt file and can be installed (preferrably in a virtual environment) using the command `pip install -r requirements.txt`.
 ## Citation
 
