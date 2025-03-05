@@ -1,5 +1,6 @@
 # Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers
 This repository contains Python scripts and data used for applying tree-based models to single-cell RNA sequencing (scRNA-seq) data to identify breast cancer gene drivers. The goal is to leverage machine learning techniques to uncover important genetic markers associated with breast cancer progression.
+The implementation was developed and tested using Python version 3.11.2.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -27,9 +28,9 @@ This repository contains several Python scripts and Jupyter notebooks for proces
 - **cell_annotation_scRNAseqDBC.ipynb** – Assigns cell-type annotations based on gene expression profiles. *(Uses: `SCSA (https://github.com/bioinfo-ibms-pumc/SCSA)`)*  
 - **Trajectory_inference_scRNAseqDBC.ipynb** – Performs trajectory inference on single-cell RNA sequencing data. *(Uses: `scanpy`)*  
 - **DecisionTree.py** – Contains decision tree algorithms for identifying gene drivers in scRNA-seq data. *(Uses: `scikit-learn`)*  
-- **Cell_Label_Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships. *(Uses: `scikit-learn`)*  
-
-
+- **Cell_Label_Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships. *(Uses: `scikit-learn`)*
+- 
+The python dependencies are specified in the requirements.txt file and can be installed (preferrably in a virtual environment) using the command `pip install -r requirements.txt`.
 ## Citation
 
 If you use any material from this repository, please cite the following work:
