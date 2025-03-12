@@ -41,7 +41,7 @@ Authors: Vanessa Verrina et al.
 
 <!-- DOI/Link: [Your DOI or URL]  -->
 
-BibTeX format:
+BibTeX format (to be updated):
 ```bibtex
 @article{Verrina2025,
   author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
