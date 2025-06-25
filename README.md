@@ -1,5 +1,6 @@
 # Tree-based models on single-cell RNA sequencing data to identify breast cancer gene drivers
-This repository contains Python scripts and data used for applying tree-based models to single-cell RNA sequencing (scRNA-seq) data to identify breast cancer gene drivers. The goal is to leverage machine learning techniques to uncover important genetic markers associated with breast cancer progression.
+
+This repository contains Python scripts and data used for applying trajectory inference and tree-based models to single-cell RNA sequencing (scRNA-seq) data to identify breast cancer gene drivers. The goal is to leverage machine learning techniques to uncover important genetic markers associated with breast cancer progression.
 The implementation was developed and tested using [Python](https://www.python.org/) version 3.11.2.
 
 ## Table of Contents
@@ -10,7 +11,9 @@ The implementation was developed and tested using [Python](https://www.python.or
 - [Contact](#contact)
 
 ## Overview
-Breast cancer (BC) relies on an intricate environment comprising diverse cancer cell clones that shape the disease evolution. Single-cell RNA sequencing (scRNA-seq) is a valuable resource for the characterization of BC tumor biology, the assessment of its heterogeneity along with multifaceted networks existing between the malignant cells and other components of the tumor microenvironment (TME). Furthermore, scRNA-seq provides the opportunity to identify novel BC druggable targets, thus allowing the advancement of precision therapeutic approaches. The employment of machine learning techniques in cancer research can efficiently analyze large-scale omics data, making them well-suited for scRNA-seq applications. Here, we provide a novel scRNA-seq BC dataset, which uncovers 6 distinct cell clusters encompassing cancer cells and TME cell populations. By leveraging the transparency and interpretability of tree-based machine learning models, we identify gene expression changes that drive the dynamic evolutionary trajectories of the cell populations. Our dataset provides a novel transcriptomic resource that can further enhance the understanding of the complex BC ecosystem.
+Breast cancer (BC) is characterized by a highly heterogeneous cellular enviroment composed of diverse malignant clones and components of the tumor microenvironment (TME) that collectively influence the progression of the disease. Single-cell RNA sequencing (scRNA-seq) offers a powerful tool to dissect this complexity, enabling high
+resolution characterization of tumor heterogeneity and the functional interactions within the TME. Moreover, it also supports the discovery of clinically relevant subpopulations and potential therapeutic targets. In this study, we present a novel scRNA-seq dataset from an infiltrating ductal BC, profiling over 5,000 cells and identifying six distinct clusters spanning cancer and TME populations. To explore the molecular drivers of cell state transitions, we integrate pseudotime trajectory inference with interpretable, tree-based machine learning. This approach enables the identification of key genes and expression thresholds associated with dynamic phenotypic shifts. Unlike black-box models, our framework yields transparent, rule-based insights into transcriptional reprogramming during tumour evolution. 
+The resulting dataset and accessible and transparent analytical pipeline offer a valuable resource for the breast cancer research community and lay the groundwork for future studies aimed at refining molecular classification and precision therapy development. 
 
 <!-- ![Figure 1](https://github.com/user-attachments/assets/0b10c17f-f918-462b-9e33-8efeefad8271) -->
 
@@ -45,7 +48,7 @@ BibTeX format (to be updated):
 ```bibtex
 @article{Verrina2025,
   author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
-  title     = {Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers},
+  title     = {Integrating Trajectory Inference and Self-Explainable Predictive Models to Explore Cell State Transitions in Breast Cancer at Single-Cell Resolution},
   journal   = {xxx},
   year      = {2025},
   note      = {Submitted}
