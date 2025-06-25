@@ -31,7 +31,7 @@ This repository contains several Python scripts and Jupyter notebooks for proces
 - **cell_annotation_scRNAseqDBC.ipynb** – Assigns cell-type annotations based on gene expression profiles using [SCSA](https://github.com/bioinfo-ibms-pumc/SCSA). *(Uses: `SCSA`)*  
 - **Trajectory_inference_scRNAseqDBC.ipynb** – Performs trajectory inference on single-cell RNA sequencing data. *(Uses: `scanpy`)*  
 - **DecisionTree.py** – Contains decision tree algorithms for identifying gene drivers in scRNA-seq data. *(Uses: `scikit-learn`)*  
-- **Cell_Label_Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships. *(Uses: `scikit-learn`)*
+- **Couple_single_tree.py** – Implements tree-based models to analyze cell-label relationships. *(Uses: `scikit-learn`)*
 
 The Python dependencies are specified in the requirements.txt file and can be installed (preferrably in a virtual environment) using the command `pip install -r requirements.txt`.
 ## Citation
