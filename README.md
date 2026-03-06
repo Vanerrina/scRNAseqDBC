@@ -38,21 +38,31 @@ The Python dependencies are specified in the requirements.txt file and can be in
 
 If you use any material from this repository, please cite the following work:
 
-*Applying tree-based models to single-cell RNA sequencing data for identifying breast cancer gene drivers*  
+Verrina V, Talia M, Cesario E, Capalbo S, Scordamaglia D, Lappano R, Miglietta AM, Maggiolini M and Giordano S (2026) Integrating trajectory inference and self-explainable predictive models to explore cell state transitions in breast cancer at single-cell resolution. Front. Bioinform. 6:1672671. doi: 10.3389/fbinf.2026.1672671
 
-Authors: Vanessa Verrina et al.
-
-<!-- DOI/Link: [Your DOI or URL]  -->
+<!-- DOI/Link:  https://doi.org/10.3389/fbinf.2026.1672671  -->
 
 BibTeX format (to be updated):
 ```bibtex
-@article{Verrina2025,
-  author    = {Vanessa Verrina and Marianna Talia and Eugenio Cesario and Santina Capalbo and Domenica Scordamaglia and Rosamaria Lappano and Anna Maria Miglietta and Marcello Maggiolini and Sabrina Giordano},
-  title     = {Integrating Trajectory Inference and Self-Explainable Predictive Models to Explore Cell State Transitions in Breast Cancer at Single-Cell Resolution},
-  journal   = {xxx},
-  year      = {2025},
-  note      = {Submitted}
-}
+@ARTICLE{10.3389/fbinf.2026.1672671,
+    
+AUTHOR={Verrina, Vanessa  and Talia, Marianna  and Cesario, Eugenio  and Capalbo, Santina  and Scordamaglia, Domenica  and Lappano, Rosamaria  and Miglietta, Anna Maria  and Maggiolini, Marcello  and Giordano, Sabrina },
+           
+TITLE={Integrating trajectory inference and self-explainable predictive models to explore cell state transitions in breast cancer at single-cell resolution},
+          
+JOURNAL={Frontiers in Bioinformatics},
+          
+VOLUME={Volume 6 - 2026},
+  
+YEAR={2026},
+  
+URL={https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2026.1672671},
+  
+DOI={10.3389/fbinf.2026.1672671},
+  
+ISSN={2673-7647},
+  
+ABSTRACT={IntroductionBreast cancer is characterized by a highly heterogeneous cellular environment composed of diverse malignant clones and components of the tumor microenvironment (TME) that collectively influence disease progression. Single-cell RNA sequencing (scRNA-seq) offers a powerful tool to dissect this complexity, enabling high-resolution characterization of tumor heterogeneity and functional interactions within the TME. Moreover, it supports the discovery of clinically relevant subpopulations and potential therapeutic targets.MethodsIn this study, we present a novel scRNA-seq dataset from an infiltrating ductal breast cancer, profiling over 5,000 cells and identifying six distinct clusters spanning cancer and TME populations. To explore the molecular drivers of cell state transitions, we integrate pseudotime trajectory inference with interpretable, tree-based machine learning. This combined approach enables the identification of key genes and expression thresholds associated with dynamic phenotypic shifts.ResultsOur analysis identified six distinct cellular clusters representing both malignant and TME populations. The integration of pseudotime inference with interpretable machine learning uncovered key genes and specific expression thresholds associated with transcriptional reprogramming and dynamic phenotypic transitions during tumor evolution.DiscussionUnlike black-box models, our framework provides transparent, rule-based insights into transcriptional reprogramming processes underlying tumor progression. The resulting dataset, together with an accessible and transparent analytical pipeline, represents a valuable resource for the breast cancer research community and establishes a foundation for future studies aimed at refining molecular classification and advancing precision therapy development.}}
 ```
 ## Contact
 For questions or collaboration, contact Vanessa Verrina at vanessa.verrina@unical.it.
